@@ -51,11 +51,14 @@ def demo_pet_animation():
     
     print()
     print("🎮 Interactive Features:")
-    print("• Click and drag to move the pet around")
+    print("• Lives in a small container (1/8 screen size) in corner of desktop")
+    print("• Click and drag to move the pet within its container")
     print("• Double-click to trigger play animation")
-    print("• Pet follows your cursor when you're nearby")
+    print("• Pet follows your cursor when you move near the container")
+    print("• Randomly wanders around its container space")
     print("• Automatically changes between idle, sleep, and play")
     print("• Only visible when desktop is showing (no apps on top)")
+    print("• Subtle, non-intrusive design that blends with wallpaper")
     print()
     print("Ready to install your desktop companion!")
 

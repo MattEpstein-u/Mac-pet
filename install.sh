@@ -45,9 +45,10 @@ echo "• To stop the pet: killall Python (or use Activity Monitor)"
 echo "• To uninstall: ./uninstall.sh"
 echo
 echo "Pet Features:"
-echo "• Click and drag to move the pet around"
+echo "• Lives in a small container in the corner of your desktop"
+echo "• Click and drag to move the pet within its container"
 echo "• Double-click to make it play"
-echo "• The pet will follow your cursor when you're nearby"
+echo "• The pet will follow your cursor and wander randomly"
 echo "• It will sleep, play, and be idle randomly"
 echo "• Only visible when all apps are minimized to desktop"
 echo

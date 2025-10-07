@@ -1,7 +1,13 @@
 @echo off
 REM Installation script for Desktop Pet on Windows
 
-echo === Desktop Pet Installation for Windows ===
+echo =echo Pet Features:
+echo ^• Lives in a small container in the corner of your desktop
+echo ^• Click and drag to move the pet within its container
+echo ^• Double-click to make it play
+echo ^• The pet will follow your cursor and wander randomly
+echo ^• It will sleep, play, and be idle randomly
+echo ^• Only visible when all apps are minimized to desktopktop Pet Installation for Windows ===
 echo.
 
 REM Get current directory

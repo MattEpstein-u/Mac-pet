@@ -1,16 +1,17 @@
 # Cross-Platform Desktop Pet 🐱
 
-A cute, simple desktop pet for macOS and Windows that lives on your desktop background and provides companionship while you work!
+A cute, simple desktop pet for macOS and Windows that lives in a small container on your desktop background and provides companionship while you work!
 
 ## Features
 
+- **Small container**: Lives in a compact area (1/8 screen size) in desktop corner
 - **Desktop background**: Only visible when all apps are minimized to desktop
 - **Cross-platform**: Works on both macOS and Windows
-- **Interactive**: Click and drag to move, double-click to play
-- **Smart behavior**: Follows your cursor when nearby
+- **Interactive**: Click and drag to move within container, double-click to play
+- **Smart behavior**: Follows your cursor and wanders randomly in container
 - **Multiple states**: Idle, walking, sleeping, and playing animations
 - **Auto-startup**: Automatically starts when you log in
-- **Non-intrusive**: Won't interfere with your work or applications
+- **Non-intrusive**: Subtle design that blends with your wallpaper
 
 ## Installation
 
@@ -55,12 +56,14 @@ That's it! Your desktop pet will start immediately and will automatically appear
 
 ## Interacting with Your Pet
 
-- **Visibility**: The pet only appears when all applications are minimized to show the desktop
-- **Move**: Click and drag the pet to move it around your desktop
+- **Container**: Pet lives in a small, subtle container in the corner of your desktop
+- **Visibility**: Only appears when all applications are minimized to show the desktop
+- **Move**: Click and drag the pet to move it within its container space
 - **Play**: Double-click on the pet to make it happy and playful
-- **Follow**: Move your cursor near the pet and it will follow you around
-- **Automatic behaviors**: Your pet will randomly sleep, play, and idle
-- **Non-intrusive**: Won't appear over your applications while you work
+- **Follow**: Move your cursor near the container and the pet will follow
+- **Wandering**: Pet randomly explores different spots within its container
+- **Automatic behaviors**: Pet will randomly sleep, play, and idle
+- **Subtle design**: Container blends nicely with most desktop wallpapers
 
 ## Requirements
 
@@ -86,10 +89,12 @@ That's it! Your desktop pet will start immediately and will automatically appear
 See what your pet will look like before installing:
 ```bash
 # macOS/Linux
-python3 demo.py
+python3 demo.py            # Animation preview
+python3 test_container.py  # Container size preview
 
 # Windows  
-python demo.py
+python demo.py             # Animation preview
+python test_container.py   # Container size preview
 ```
 
 ### Testing Compatibility
@@ -124,6 +129,7 @@ You can customize your pet by editing `desktop_pet.py`:
 
 - `desktop_pet.py` - Main pet application (cross-platform)
 - `demo.py` - Preview script to see pet animations
+- `test_container.py` - Container size and position preview
 - `test_compatibility.py` - System compatibility checker
 - `start_pet.sh` - macOS startup script
 - `start_pet.bat` - Windows startup script
