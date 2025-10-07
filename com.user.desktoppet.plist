@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.desktoppet</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>REPLACE_WITH_FULL_PATH/start_pet.sh</string>
+    </array>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <false/>
+    
+    <key>LaunchOnlyOnce</key>
+    <true/>
+    
+    <key>StandardOutPath</key>
+    <string>/tmp/desktop_pet.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/tmp/desktop_pet_error.log</string>
+</dict>
+</plist>
