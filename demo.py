@@ -61,6 +61,9 @@ def demo_pet_animation():
     print("• Subtle, non-intrusive design that blends with wallpaper")
     print()
     print("Ready to install your desktop companion!")
+    print()
+    print("💡 Want to try it first? Run: python3 test_interactive.py")
+    print("   This opens a test window where you can play with the pet!")
 
 if __name__ == "__main__":
     demo_pet_animation()
