@@ -14,13 +14,16 @@ import sys
 class TestDesktopPet:
     def __init__(self):
         self.root = tk.Tk()
+        
+        # Set container dimensions first
+        self.container_width = 600
+        self.container_height = 400
+        
         self.setup_test_window()
         self.setup_pet()
         self.setup_animations()
         
         # Pet state
-        self.container_width = 600
-        self.container_height = 400
         self.target_x = self.container_width // 2
         self.target_y = self.container_height // 2
         self.current_x = self.container_width // 2
